@@ -33,9 +33,10 @@ const AgendarCita = () => {
                   <TextInput
                     style={styles.input}
                     placeholder="Nombre completo"
+                    la
                   />
                   <TextInput
-                  style={styles.input} placeholder="Teléfono" />
+                    style={styles.input} placeholder="Teléfono" />
                   <TextInput
                     style={styles.input}
                     placeholder="Correo electrónico"
@@ -53,9 +54,6 @@ const AgendarCita = () => {
                     </TouchableOpacity>
                   </View>
 
-                  <Text style={styles.paragraph}>
-                    Si desea solicitar más información, por favor contáctenos.
-                  </Text>
                 </View>
               </View>
             </View>
@@ -103,11 +101,6 @@ const styles = StyleSheet.create({
     backgroundColor: "white",
     opacity: 0.6,
   },
-  paragraph: {
-    fontSize: 15,
-    textAlign: "center",
-  },
-
   containerText: {
     width: "100%",
   },

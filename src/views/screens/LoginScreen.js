@@ -22,6 +22,9 @@ import Button from "../components/Button";
 import Loader from "../components/Loader";
 import user from "../../../assets/usuario.png";
 
+import "expo-dev-client";
+import { GoogleSingin } from '@react-native-google-singin'
+
 const LoginScreen = ({ navigation }) => {
   const [inputs, setInputs] = React.useState({
     email: "",
